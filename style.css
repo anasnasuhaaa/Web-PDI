@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 10px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.profile>img {
+    padding: 20px 0;
+}
+
+.profile>p {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.link {
+    width: 280px;
+    margin-top: 10px;
+}
+
+.link>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.link>form>.identity {
+    height: 40px;
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+    font-size: 1.02rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 10px;
+    padding: 0 0 0 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+
+.link>form>.identity::-webkit-input-placeholder {
+    color: rgb(249, 56, 56);
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: start;
+}
+
+.ceck{
+    margin-top: 20px;
+    /* text-transform: capitalize; */
+    display: flex;
+    letter-spacing: 2px;
+    color: white;
+    margin: 5px 0 0 10px;
+    align-self: self-start;
+    font-size: 0.9rem;
+}
+.ceck>p{
+    padding: 0 5px;
+}
+.login{
+    align-self: center;
+    margin-top: 20px;
+    width: 260px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 50;
+    letter-spacing: 1.5px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+.login:hover{
+    background-color: rgb(161, 0, 0);
+}
